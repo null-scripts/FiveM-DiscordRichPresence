@@ -11,7 +11,7 @@ Citizen.CreateThread(function()
         SetDiscordAppId(appId)
 
         SetRichPresence('Username: ' .. playerName .. 'Server id:' .. playerId)
-        
+
         --Big Picture
         SetDiscordRichPresenceAsset(bigPic)
         SetDiscordRichPresenceAssetText('Big Text')
@@ -21,7 +21,7 @@ Citizen.CreateThread(function()
         SetDiscordRichPresenceAssetSmallText('Small Text')
 
         SetDiscordRichPresenceAction(0, 'Buttom One', 'https://~~~~~.com')
-        SetDiscordRichPresenceAction(1, 'Buttom One', 'https://~~~~~.com')
+        SetDiscordRichPresenceAction(1, 'Buttom Two', 'https://~~~~~.com')
         Citizen.Wait(1000)
     end
 end)
