@@ -2,21 +2,21 @@ Config = {}
 
 Config.Discord = {
     ApplicationID = 'XXXXXXXXXXXXXXXXXX'  --PLZ Discord ApplicationID
-    small = 'small',           
-    big = 'big',                            
-    HoverTextBig = 'Null-Scripts',          
-    HoverTextSmall = 'dev-srv'            
+    asset_small = 'small',           
+    Asset_big = 'big',                            
+    hovertext_big = 'Null-Scripts',          
+    hovertext_small = 'dev-srv'            
 }
 
 Config.Buttom = {
     label_0 = 'My Community',
-    url_0 = '',
+    url_0 = 'https://discord.gg/invite/7r9gHhtcfk',
 
-    label_1 = 'Null-City',
-    url_1 = ''
+    label_1 = 'Zenn.dev',
+    url_1 = 'https://zenn.dev/null_scripts'
 }
 
 Config.Display = {
-    id = 'ID:',
-    PlayerName = 'キャラクター名'
+    player_id = 'ID:',
+    player_name = 'Player:'
 }
