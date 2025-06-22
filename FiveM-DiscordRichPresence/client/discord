@@ -1,0 +1,37 @@
+Citizen.CreateThread(function()
+    while true do
+
+        local playerName = GetPlayerName(PlayerId())
+        local playerId = GetPlayerServerId(PlayerId())
+
+        local ApplicationID = Config.Discord.ApplicationID
+        local smallPic = 'small'
+        local bigPic = 'big'
+
+        SetDiscordAppId(ApplicationID)
+
+        SetRichPresence('ID:' .. playerId .. '\nキャラクター名' .. playerName)
+
+        --Big Picture
+        SetDiscordRichPresenceAsset(bigPic)
+        SetDiscordRichPresenceAssetText('Null-Scripts')
+
+        --Small Picture
+        SetDiscordRichPresenceAssetSmall(smallPic)
+        SetDiscordRichPresenceAssetSmallText('開発鯖')
+
+        --Buttom
+        SetDiscordRichPresenceAction(
+	        0,
+	        'My Community',
+	        'https://discord.gg/invite/7r9gHhtcfk'
+        )
+        SetDiscordRichPresenceAction(
+	        1,
+	        'Zenn.dev',
+	        'https://zenn.dev/null_scripts'
+        )
+
+        Citizen.Wait(1000)
+    end
+end)
