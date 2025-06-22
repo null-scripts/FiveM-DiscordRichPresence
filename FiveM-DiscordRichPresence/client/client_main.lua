@@ -20,6 +20,7 @@ Citizen.CreateThread(function()
         SetDiscordRichPresenceAssetSmall(smallPic)
         SetDiscordRichPresenceAssetSmallText('Small Text')
 
+        --Buttom
         SetDiscordRichPresenceAction(0, 'Buttom One', 'https://~~~~~.com')
         SetDiscordRichPresenceAction(1, 'Buttom Two', 'https://~~~~~.com')
         Citizen.Wait(1000)
