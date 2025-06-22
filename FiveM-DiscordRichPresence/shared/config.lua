@@ -1,9 +1,9 @@
 Config = {}
 
 Config.Discord = {
-    ApplicationID = 'XXXXXXXXXXXXXXXXXX'  --PLZ Discord ApplicationID
-    asset_small = 'small',           
-    Asset_big = 'big',                            
+    ApplicationID = 'XXXXXXXXXXXXXXXXXX',  --PLZ Discord ApplicationID
+    asset_big = 'big', 
+    asset_small = 'small',                                      
     hovertext_big = 'Null-Scripts',          
     hovertext_small = 'dev-srv'            
 }
